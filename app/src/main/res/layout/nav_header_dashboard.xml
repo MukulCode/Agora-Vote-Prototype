@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="190dp"
+    android:layout_height="250dp"
     android:background="@drawable/greenbackground"
     android:gravity="bottom"
     android:orientation="vertical"
@@ -14,11 +14,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="125dp"
-        android:layout_height="97dp"
+        android:layout_width="144dp"
+        android:layout_height="115dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="15dp"
-        app:srcCompat="@drawable/agora" />
+        app:srcCompat="@drawable/mukulcircle" />
 
     <TextView
         android:layout_width="match_parent"
