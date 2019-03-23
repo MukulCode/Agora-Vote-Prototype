@@ -113,7 +113,7 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="50dp"
+        android:paddingLeft="40dp"
         android:paddingTop="270dp"
         android:paddingRight="20dp"
         android:paddingBottom="80dp"
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="RankedPairs"
             android:textSize="20sp" />
 
         <RadioButton
@@ -133,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="Uncovered Set"
             android:textSize="20sp" />
 
         <RadioButton
@@ -141,7 +141,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="Random Ballot"
             android:textSize="20sp" />
 
         <RadioButton
@@ -149,7 +149,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="Kemeny Young"
             android:textSize="20sp" />
 
         <RadioButton
@@ -157,7 +157,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="RangeVoting"
             android:textSize="20sp" />
 
         <RadioButton
@@ -165,7 +165,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="MinimaxCondorset"
             android:textSize="20sp" />
 
         <RadioButton
@@ -173,11 +173,80 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Algorithm"
+            android:text="Exhaustive Ballot"
             android:textSize="20sp" />
 
     </RadioGroup>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="80dp"
+    android:paddingTop="270dp">
+    <RadioButton
+        android:id="@+id/radioButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Oklahoma"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Borda"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Copeland"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SmithSet"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Approval"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Baldwin"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nanson"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp" />
 
+
+
+
+
+
+
+
+</RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
 

@@ -7,4 +7,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="agora_vote_is">Agora vote is a voting \n platform where users can create elections and invite friends to cast their votes.</string>
+    <string name="t_supports_a">It supports a wide range of voting algorithms some of which are Majority, Egalitarian, Australian STV just to name a few</string>
+    <string name="contact_us">Feel free to contact us on out gitter channels and work with us on gitlab</string>
 </resources>
