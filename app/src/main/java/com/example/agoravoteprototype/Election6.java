@@ -21,6 +21,8 @@ public class Election6 extends AppCompatActivity {
         next_btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent13=new Intent(Election6.this,Dashboard.class);
+                startActivity(intent13);
                 Toast.makeText(Election6.this, "Election has been successfully created", Toast.LENGTH_SHORT).show();
             }
         });
