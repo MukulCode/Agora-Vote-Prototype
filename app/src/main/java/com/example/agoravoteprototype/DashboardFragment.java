@@ -13,10 +13,23 @@ import android.widget.Button;
 public class DashboardFragment extends Fragment {
 
 
+    Button create_election_btn;
+
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_dashboard,null);
+        View v= inflater.inflate(R.layout.fragment_dashboard,null);
+        create_election_btn=(Button)v.findViewById(R.id.create_election_btn);
+        create_election_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(getActivity(),Election1.class);
+                startActivity(intent);
+            }
+        });
+        return v;
+
     }
 
     @Override

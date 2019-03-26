@@ -16,7 +16,7 @@ public class Signin extends AppCompatActivity {
         signinbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2= new Intent(Signin.this, Election1.class);
+                Intent intent2= new Intent(Signin.this, Dashboard.class);
                 startActivity(intent2);
 
             }

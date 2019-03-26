@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:srcCompat="@drawable/mukulcircle" />
+        app:srcCompat="@drawable/abandaludovic" />
 
 
     <TextView
@@ -47,7 +47,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Full Name: Mukul Kumar"
+        android:text="Name: Abanda Ludovic"
         android:textColor="#000000"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +63,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Username: Mukul"
+        android:text="Username: icemc"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Email: Mukul.2121@gmail.com"
+        android:text="Email: abandaludovic500@gmail.com"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
