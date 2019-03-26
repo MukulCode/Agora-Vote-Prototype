@@ -11,7 +11,7 @@
 
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/total_txtview"
         android:layout_width="354dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/create_election_btn" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/finished_txtview"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
@@ -46,11 +46,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/active_txtview"
         app:layout_constraintVertical_bias="0.058" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/active_txtview"
         android:layout_width="357dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
@@ -65,10 +65,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+        app:layout_constraintTop_toBottomOf="@+id/pending_txtview" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/pending_txtview"
         android:layout_width="355dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
@@ -83,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+        app:layout_constraintTop_toBottomOf="@+id/total_txtview" />
 
     <Button
         android:id="@+id/create_election_btn"
@@ -110,10 +110,10 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/yellow_box"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/textView23"
-        app:layout_constraintEnd_toEndOf="@+id/textView23"
+        app:layout_constraintBottom_toBottomOf="@+id/total_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/total_txtview"
         app:layout_constraintHorizontal_bias="0.085"
-        app:layout_constraintStart_toStartOf="@+id/textView23" />
+        app:layout_constraintStart_toStartOf="@+id/total_txtview" />
 
     <TextView
         android:id="@+id/textView30"
@@ -122,10 +122,10 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/green_box"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/textView27"
-        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintBottom_toBottomOf="@+id/pending_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/pending_txtview"
         app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="@+id/textView27" />
+        app:layout_constraintStart_toStartOf="@+id/pending_txtview" />
 
     <TextView
         android:id="@+id/textView31"
@@ -134,10 +134,10 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/red_box"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/textView26"
-        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintBottom_toBottomOf="@+id/active_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/active_txtview"
         app:layout_constraintHorizontal_bias="0.088"
-        app:layout_constraintStart_toStartOf="@+id/textView26" />
+        app:layout_constraintStart_toStartOf="@+id/active_txtview" />
 
     <TextView
         android:id="@+id/textView32"
@@ -146,10 +146,10 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/blue_box"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/textView25"
-        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintBottom_toBottomOf="@+id/finished_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/finished_txtview"
         app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="@+id/textView25" />
+        app:layout_constraintStart_toStartOf="@+id/finished_txtview" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -200,12 +200,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:text="5"
-        android:textSize="40sp"
         android:textColor="#f000"
-        app:layout_constraintBottom_toBottomOf="@+id/textView23"
-        app:layout_constraintEnd_toEndOf="@+id/textView23"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/total_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/total_txtview"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toEndOf="@+id/textView29" />
 
     <TextView
@@ -216,12 +216,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:text="1"
         android:textColor="#f000"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView27"
-        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintBottom_toBottomOf="@+id/pending_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/pending_txtview"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toEndOf="@+id/textView30" />
 
     <TextView
@@ -232,12 +232,11 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:text="1"
         android:textColor="#f000"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView26"
-        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintBottom_toBottomOf="@+id/active_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/active_txtview"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toEndOf="@+id/textView31" />
 
@@ -249,11 +248,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:text="3"
         android:textColor="#f000"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView25"
-        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintBottom_toBottomOf="@+id/finished_txtview"
+        app:layout_constraintEnd_toEndOf="@+id/finished_txtview"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toEndOf="@+id/textView32" />
+
+   />
 </android.support.constraint.ConstraintLayout>

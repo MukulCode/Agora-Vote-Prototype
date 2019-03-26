@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen"
-            >
+        <activity android:name=".FinishedElections"></activity>
+        <activity android:name=".ActiveElections" />
+        <activity android:name=".PendingElections" />
+        <activity android:name=".TotalElections" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
