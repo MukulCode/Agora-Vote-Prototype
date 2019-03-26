@@ -159,7 +159,8 @@
         app:layout_constraintEnd_toEndOf="@+id/textView29"
         app:layout_constraintStart_toStartOf="@+id/textView29"
         app:layout_constraintTop_toTopOf="@+id/textView29"
-        app:srcCompat="@drawable/ic_bubble_chart_black_24dp" />
+        app:srcCompat="@drawable/ic_bubble_chart_black_24dp"
+        />
 
     <ImageView
         android:id="@+id/imageView4"
