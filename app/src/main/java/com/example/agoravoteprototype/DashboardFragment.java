@@ -39,6 +39,7 @@ public class DashboardFragment extends Fragment {
                 Intent intentpending=new Intent(getActivity(),PendingElections.class);
                 startActivity(intentpending);
             }
+
         });
         active_txtview.setOnClickListener(new View.OnClickListener() {
             @Override
