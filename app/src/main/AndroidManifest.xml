@@ -9,7 +9,15 @@
         android:roundIcon="@drawable/agora"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FinishedElections"></activity>
+        <activity android:name=".before_signup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".FinishedElections" />
         <activity android:name=".ActiveElections" />
         <activity android:name=".PendingElections" />
         <activity android:name=".TotalElections" />
@@ -32,11 +40,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Signin" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
     </application>
 
