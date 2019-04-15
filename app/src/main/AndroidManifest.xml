@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/agora"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".VoteTypeThreee"></activity>
         <activity android:name=".VoteTypeTwo" />
         <activity android:name=".BallotOne" />
@@ -23,6 +24,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".FinishedElections" />
+||||||| merged common ancestors
+        <activity android:name=".FinishedElections"></activity>
+=======
+        <activity android:name=".before_signup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".FinishedElections" />
+>>>>>>> c4f2f5c144c89f3b8344b512df47d8e5102ef7f7
         <activity android:name=".ActiveElections" />
         <activity android:name=".PendingElections" />
         <activity android:name=".TotalElections" />
@@ -44,7 +58,21 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Signin" />
+<<<<<<< HEAD
         <activity android:name=".MainActivity" />
+||||||| merged common ancestors
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+=======
+        <activity android:name=".MainActivity">
+
+        </activity>
+>>>>>>> c4f2f5c144c89f3b8344b512df47d8e5102ef7f7
     </application>
 
 </manifest>

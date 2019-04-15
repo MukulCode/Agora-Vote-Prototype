@@ -156,8 +156,15 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/signupbtn"
         app:layout_constraintVertical_bias="0.213" />
+||||||| merged common ancestors
+        app:layout_constraintTop_toBottomOf="@+id/signupbtn" />
+=======
+        app:layout_constraintTop_toBottomOf="@+id/signupbtn"
+        app:layout_constraintVertical_bias="0.0" />
+>>>>>>> c4f2f5c144c89f3b8344b512df47d8e5102ef7f7
 
 
 </android.support.constraint.ConstraintLayout>
