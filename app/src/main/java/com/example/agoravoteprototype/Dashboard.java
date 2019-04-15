@@ -91,7 +91,7 @@ public class Dashboard extends AppCompatActivity
             fragment=new ContactFragment();
 
         } else if (id == R.id.nav_help) {
-
+            fragment=new MyInvitationFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_profile) {
