@@ -20,7 +20,7 @@ Button vote_now;
         vote_now.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(getActivity(),VoteTypeTwo.class);
+                Intent intent =new Intent(getActivity(),VoteTypeFour.class);
                 startActivity(intent);
             }
         });

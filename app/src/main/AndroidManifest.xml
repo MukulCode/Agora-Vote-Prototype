@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/agora"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VoteTypeThreee"></activity>
+        <activity android:name=".Dialog2"></activity>
+        <activity android:name=".VoteTypeFour" />
+        <activity android:name=".VoteTypeThreee" />
         <activity android:name=".VoteTypeTwo" />
         <activity android:name=".BallotOne" />
         <activity android:name=".VoteTypeOne" />

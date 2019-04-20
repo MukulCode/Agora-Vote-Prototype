@@ -51,7 +51,7 @@
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         android:text="@string/continue_with_facebook"
-        android:textColor="#fff"
+        android:textColor="@color/White"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
