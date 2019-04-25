@@ -24,9 +24,9 @@ Button btn100;
         btn100.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent13=new Intent(VoteTypeFour.this,Dashboard.class);
-                startActivity(intent13);
-                Toast.makeText(VoteTypeFour.this, "Your Votes Has Been Recorded", Toast.LENGTH_SHORT).show();
+                showDialog1();
+
+
             }
         });
         steve.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +59,22 @@ Button btn100;
 
         LayoutInflater inflater = LayoutInflater.from(this);
         View view = inflater.inflate(R.layout.activity_dialog2, null);
+
+
+
+        AlertDialog alertDialog = new AlertDialog.Builder(this)
+                .setView(view)
+                .create();
+
+        alertDialog.show();
+
+
+
+    }
+    void showDialog1() {
+
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View view = inflater.inflate(R.layout.activity_dialog3, null);
 
 
 

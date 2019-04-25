@@ -33,8 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.akaita.android:circular-seek-bar:1.0'
     implementation 'com.android.support:design:28.0.0'
-
-
+    implementation 'com.airbnb.android:lottie:1.5.3'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.xw.repo:bubbleseekbar:3.5-lite'
